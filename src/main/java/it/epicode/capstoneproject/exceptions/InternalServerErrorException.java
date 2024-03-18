@@ -1,0 +1,7 @@
+package it.epicode.capstoneproject.exceptions;
+
+public class InternalServerErrorException extends Exception {
+    public InternalServerErrorException(String message) {
+        super(message);
+    }
+}
